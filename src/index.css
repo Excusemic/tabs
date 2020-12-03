@@ -99,3 +99,12 @@ code {
   align-self: baseline;
   color: rgb(62, 219, 219);
 }
+@media only screen and (max-width: 650px) {
+  .experienceList {
+    flex-wrap: wrap;
+  }
+  .tabs li {
+    padding: 0.2em;
+    display: inline-block;
+  }
+}
